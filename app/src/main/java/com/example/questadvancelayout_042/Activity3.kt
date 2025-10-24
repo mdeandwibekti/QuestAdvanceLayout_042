@@ -134,6 +134,28 @@ fun Praktikum3(modifier: Modifier){
                 containerColor = Color(0xFF3E3E3E)
             )
         ) {
+            Row(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .padding(horizontal = 20.dp),
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                Icon(imageVector = Icons.Default.Lock, contentDescription = "Privacy", tint = Color.White)
+                Spacer(modifier = Modifier.width(16.dp))
+                Text(
+                    text = "Privacy",
+                    color = Color.White,
+                    fontSize = 16.sp,
+                    modifier = Modifier.weight(1f)
+                )
+                Icon(imageVector = Icons.Default.PlayArrow, contentDescription = "Go", tint = Color.White,
+                    modifier = Modifier
+                    .size(20.dp)
+                    .border(2.dp, Color.White, CircleShape)
+                )
+            }
+        }
+
 
     }
 }
