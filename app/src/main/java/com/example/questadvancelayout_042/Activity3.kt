@@ -101,6 +101,15 @@ fun Praktikum3(modifier: Modifier){
                     .clip(CircleShape)
             )
         }
+        Spacer(modifier = Modifier.height(16.dp))
+
+        Text(
+            text = stringResource(id = R.string.nama),
+            color = Color.White,
+            fontSize = 32.sp,
+            fontWeight = FontWeight.Bold
+        )
+
 
     }
 }
