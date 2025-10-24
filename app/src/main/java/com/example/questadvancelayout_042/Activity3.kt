@@ -114,7 +114,7 @@ fun Praktikum3(modifier: Modifier){
             text = stringResource(id = R.string.Tag),
             color = Color.Gray,
             fontSize = 16.sp
-        )
+        )S
 
     }
 }
