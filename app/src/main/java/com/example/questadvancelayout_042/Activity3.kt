@@ -110,6 +110,11 @@ fun Praktikum3(modifier: Modifier){
             fontWeight = FontWeight.Bold
         )
 
+        Text(
+            text = stringResource(id = R.string.Tag),
+            color = Color.Gray,
+            fontSize = 16.sp
+        )
 
     }
 }
