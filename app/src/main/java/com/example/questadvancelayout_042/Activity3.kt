@@ -50,6 +50,17 @@ fun Praktikum3(modifier: Modifier){
             .padding(horizontal = 24.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ){
+        Spacer(modifier = Modifier.height(60.dp))
+
+        Image(
+            painter = painterResource(id = R.drawable.foto),
+            contentDescription = "Profile Picture",
+            modifier = Modifier
+                .size(120.dp)
+                .clip(CircleShape)
+                .border(2.dp, Color.Gray, CircleShape)
+        )
+
 
     }
 }
