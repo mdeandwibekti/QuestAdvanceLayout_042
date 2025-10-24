@@ -189,6 +189,39 @@ fun Praktikum3(modifier: Modifier){
             }
         }
 
+        Spacer(modifier = Modifier.height(12.dp))
+
+        Card(
+            modifier = Modifier
+                .fillMaxWidth()
+                .height(60.dp),
+            shape = RoundedCornerShape(30.dp),
+            colors = CardDefaults.cardColors(
+                containerColor = Color(0xFF3E3E3E)
+            )
+        ) {
+            Row(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .padding(horizontal = 20.dp),
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                Icon(imageVector = Icons.Default.Settings, contentDescription = "Pengaturan", tint = Color.White)
+                Spacer(modifier = Modifier.width(16.dp))
+                Text(
+                    text = "Pengaturan",
+                    color = Color.White,
+                    fontSize = 16.sp,
+                    modifier = Modifier.weight(1f)
+                )
+                Icon(imageVector = Icons.Default.PlayArrow, contentDescription = "Go", tint = Color.White,
+                    modifier = Modifier
+                    .size(20.dp)
+                    .border(2.dp, Color.White, CircleShape)
+                )
+            }
+        }
+
 
     }
 }
