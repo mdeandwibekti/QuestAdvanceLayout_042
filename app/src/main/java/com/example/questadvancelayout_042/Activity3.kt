@@ -93,6 +93,14 @@ fun Praktikum3(modifier: Modifier){
                     .clip(CircleShape)
             )
 
+            Image(
+                painter = painterResource(id = R.drawable.twitter),
+                contentDescription = "twitter",
+                modifier = Modifier
+                    .size(30.dp)
+                    .clip(CircleShape)
+            )
+        }
 
     }
 }
