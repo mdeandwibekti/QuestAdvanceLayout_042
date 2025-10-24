@@ -77,6 +77,14 @@ fun Praktikum3(modifier: Modifier){
             )
 
 
+            Image(
+                painter = painterResource(id = R.drawable.google_),
+                contentDescription = "google+",
+                modifier = Modifier
+                    .size(30.dp)
+                    .clip(CircleShape)
+            )
+
 
     }
 }
