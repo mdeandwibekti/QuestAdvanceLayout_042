@@ -61,6 +61,22 @@ fun Praktikum3(modifier: Modifier){
                 .border(2.dp, Color.Gray, CircleShape)
         )
 
+        Spacer(modifier = Modifier.height(16.dp))
+
+        Row(
+            modifier = Modifier.fillMaxWidth(0.8f),
+            horizontalArrangement = Arrangement.SpaceEvenly,
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            Image(
+                painter = painterResource(id = R.drawable.facebook),
+                contentDescription = "facebook",
+                modifier = Modifier
+                    .size(30.dp)
+                    .clip(CircleShape)
+            )
+
+
 
     }
 }
