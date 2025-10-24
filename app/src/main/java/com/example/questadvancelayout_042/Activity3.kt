@@ -156,6 +156,17 @@ fun Praktikum3(modifier: Modifier){
             }
         }
 
+        Spacer(modifier = Modifier.height(12.dp))
+
+        Card(
+            modifier = Modifier
+                .fillMaxWidth()
+                .height(60.dp),
+            shape = RoundedCornerShape(30.dp),
+            colors = CardDefaults.cardColors(
+                containerColor = Color(0xFF3E3E3E)
+            )
+        ) {
 
     }
 }
