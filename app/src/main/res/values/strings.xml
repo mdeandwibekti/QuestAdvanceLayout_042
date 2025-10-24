@@ -4,5 +4,8 @@
     <string name="alamat">Geblangan, jogja</string>
     <string name="prodi">Teknologi informasi</string>
     <string name="univ">Universitas Muhammadiyah Yogyakarta</string>
-    <string name="copy">Copyright, 2025</string>
+    <string name="copy">M Dean Dwi Bekti</string>
+    <string name="keterangan">Saya Mahasiswa Teknologi Informasi</string>
+    <string name="Tag">@DeanDwiBekti</string>
+    <string name="keluar">Logout</string>
 </resources>
