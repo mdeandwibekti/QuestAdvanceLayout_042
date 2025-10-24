@@ -20,7 +20,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             QuestAdvanceLayout_042Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    ActivitasPertama(
+                    Praktikum3(
 
                         modifier = Modifier.padding(innerPadding)
                     )
