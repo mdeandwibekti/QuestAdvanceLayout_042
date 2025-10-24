@@ -246,6 +246,13 @@ fun Praktikum3(modifier: Modifier){
             }
         }
 
+        Spacer(modifier = Modifier.weight(1f))
 
+        Text(
+            text = stringResource(id = R.string.copy),
+            color = Color.Gray,
+            fontSize = 14.sp,
+            modifier = Modifier.padding(bottom = 24.dp)
+        )
     }
 }
